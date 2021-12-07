@@ -51,14 +51,14 @@
             this.pictureBox1.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.pictureBox1.Location = new System.Drawing.Point(-14, 410);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(910, 57);
+            this.pictureBox1.Size = new System.Drawing.Size(985, 97);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
             // obstacle2
             // 
             this.obstacle2.Image = global::ForgottenHeroGame.Properties.Resources.obstacle_2;
-            this.obstacle2.Location = new System.Drawing.Point(822, 380);
+            this.obstacle2.Location = new System.Drawing.Point(889, 383);
             this.obstacle2.Name = "obstacle2";
             this.obstacle2.Size = new System.Drawing.Size(32, 33);
             this.obstacle2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -69,7 +69,7 @@
             // obstacle1
             // 
             this.obstacle1.BackColor = System.Drawing.SystemColors.ButtonShadow;
-            this.obstacle1.Location = new System.Drawing.Point(593, 347);
+            this.obstacle1.Location = new System.Drawing.Point(624, 347);
             this.obstacle1.Name = "obstacle1";
             this.obstacle1.Size = new System.Drawing.Size(48, 11);
             this.obstacle1.TabIndex = 2;
@@ -91,7 +91,7 @@
             // 
             this.scoreText.AutoSize = true;
             this.scoreText.Font = new System.Drawing.Font("AcmeFont", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.scoreText.Location = new System.Drawing.Point(327, 18);
+            this.scoreText.Location = new System.Drawing.Point(365, 9);
             this.scoreText.Name = "scoreText";
             this.scoreText.Size = new System.Drawing.Size(223, 60);
             this.scoreText.TabIndex = 4;
@@ -101,7 +101,7 @@
             // 
             this.gameEnd.AutoSize = true;
             this.gameEnd.Font = new System.Drawing.Font("November", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gameEnd.Location = new System.Drawing.Point(264, 102);
+            this.gameEnd.Location = new System.Drawing.Point(302, 93);
             this.gameEnd.Name = "gameEnd";
             this.gameEnd.Size = new System.Drawing.Size(0, 60);
             this.gameEnd.TabIndex = 5;
@@ -110,7 +110,7 @@
             // 
             this.gameOver.AutoSize = true;
             this.gameOver.Font = new System.Drawing.Font("Notram", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gameOver.Location = new System.Drawing.Point(295, 217);
+            this.gameOver.Location = new System.Drawing.Point(333, 208);
             this.gameOver.Name = "gameOver";
             this.gameOver.Size = new System.Drawing.Size(0, 28);
             this.gameOver.TabIndex = 6;
@@ -146,7 +146,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(880, 450);
+            this.ClientSize = new System.Drawing.Size(955, 497);
             this.Controls.Add(this.speedInfo);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.obstacle3);
