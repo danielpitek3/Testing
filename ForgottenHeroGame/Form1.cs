@@ -112,18 +112,31 @@ namespace ForgottenHeroGame
                     }
                 }
             }
-
-            if (score > 5) // SPEED
+            
+            if (score < 10) // SPEED
             {
+                speedInfo.Text = "Speed: 1x";
+                obstacleSpeed = 10;
+            }
+            else if (score == 9)
+            {
+                speedInfo.Text = " ";
+                obstacleSpeed = 10;
+            }
+            else if (score < 30)
+            {
+                speedInfo.Text = "Speed: 1.25x";
                 obstacleSpeed = 15;
             }
-            else if (score > 10)
+            else if (score == 29)
             {
-                obstacleSpeed = 20;
+                speedInfo.Text = " ";
+                obstacleSpeed = 15;
             }
-            else if (score > 20)
+            else if (score < 50)
             {
-                obstacleSpeed = 25;
+                speedInfo.Text = "Speed: 1.50x";
+                obstacleSpeed = 20;
             }
         }
 
@@ -158,6 +171,7 @@ namespace ForgottenHeroGame
             scoreText.Text = "Score: " + score;
             gameEnd.Text = " ";
             gameOver.Text = " ";
+            speedInfo.Text = " ";
             fhero.Image = Properties.Resources.running; // texture change from dead to running //
             isGameOver = false;
             fhero.Top = 367;
