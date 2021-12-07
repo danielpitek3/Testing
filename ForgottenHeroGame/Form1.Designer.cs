@@ -46,16 +46,16 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.SystemColors.ButtonShadow;
-            this.pictureBox1.Location = new System.Drawing.Point(-14, 405);
+            this.pictureBox1.Location = new System.Drawing.Point(-14, 410);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(837, 62);
+            this.pictureBox1.Size = new System.Drawing.Size(837, 57);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
             // pictureBox4
             // 
             this.pictureBox4.Image = global::ForgottenHeroGame.Properties.Resources.obstacle_2;
-            this.pictureBox4.Location = new System.Drawing.Point(698, 373);
+            this.pictureBox4.Location = new System.Drawing.Point(698, 378);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(32, 33);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -66,7 +66,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::ForgottenHeroGame.Properties.Resources.obstacle_1;
-            this.pictureBox3.Location = new System.Drawing.Point(398, 360);
+            this.pictureBox3.Location = new System.Drawing.Point(398, 364);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(23, 46);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -78,7 +78,7 @@
             // 
             this.fhero.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.fhero.Image = global::ForgottenHeroGame.Properties.Resources.running;
-            this.fhero.Location = new System.Drawing.Point(48, 367);
+            this.fhero.Location = new System.Drawing.Point(48, 370);
             this.fhero.Name = "fhero";
             this.fhero.Size = new System.Drawing.Size(40, 43);
             this.fhero.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -133,7 +133,7 @@
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.fhero);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Forgotten Hero";
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.keyisdown);
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.keyisup);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
