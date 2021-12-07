@@ -115,7 +115,7 @@ namespace ForgottenHeroGame
             
             if (score < 10) // SPEED
             {
-                speedInfo.Text = "Speed: 1x";
+                speedInfo.Text = "Speed: 1x"; // basic speed
                 obstacleSpeed = 10;
             }
             else if (score == 9)
@@ -125,7 +125,7 @@ namespace ForgottenHeroGame
             }
             else if (score < 30)
             {
-                speedInfo.Text = "Speed: 1.25x";
+                speedInfo.Text = "Speed: 1.25x"; // first speed
                 obstacleSpeed = 15;
             }
             else if (score == 29)
@@ -135,11 +135,10 @@ namespace ForgottenHeroGame
             }
             else if (score < 50)
             {
-                speedInfo.Text = "Speed: 1.50x";
+                speedInfo.Text = "Speed: 1.50x"; // highest speed
                 obstacleSpeed = 20;
             }
         }
-
         private void keyisdown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Space && jumping == false) // method for jumping down
@@ -147,7 +146,6 @@ namespace ForgottenHeroGame
                 jumping = true;
             }
         }
-
         private void keyisup(object sender, KeyEventArgs e)
         {
             if (jumping == true) // method for jumping up
